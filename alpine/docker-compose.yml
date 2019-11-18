@@ -2,3 +2,5 @@ version: '3'
 services:
   linux:
     image: alpine:3.10
+    security_opt:
+      - seccomp:unconfined
